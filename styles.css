@@ -1,3 +1,55 @@
 body {
-  background: hotpink;
+  display: inline-flex;
+  padding: 0px;
+  align-items: flex-start;
+  gap: 12px;
+  border-radius: 5px;
+}
+
+.Attention {
+  color: #de1515;
+  font-family: "Roboto Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.12px;
+  padding-left: 50px;
+  margin-top: 15px;
+}
+
+.glissant {
+  color: #de1515;
+  font-family: "Roboto Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.12px;
+  margin-top: -55px;
+  padding-left: 200px;
+}
+
+.scrollez {
+  color: rgba(222, 21, 21, 0.6);
+  font-family: "Roboto Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  letter-spacing: -0.08px;
+  margin-top: -30px;
+  padding-left: 50px;
+}
+
+div {
+  background-color: #ffe4e4;
+  border-width: 2px;
+  border-radius: 5px;
+  width: 435px;
+  height: 84px;
+}
+
+svg {
+  margin-left: -400px;
 }
